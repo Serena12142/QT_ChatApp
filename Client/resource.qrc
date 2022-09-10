@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>pic/padlock.png</file>
+        <file>pic/profile.png</file>
+        <file>pic/google.png</file>
+        <file>pic/fingerprint.png</file>
+        <file>pic/thumb-up.png</file>
+        <file>pic/left-arrow.png</file>
+        <file>pic/left-arrow1.png</file>
+        <file>pic/settings (1).png</file>
+        <file>pic/edit.png</file>
+        <file>pic/search.png</file>
+        <file>pic/ellipsis.png</file>
+        <file>pic/004-bold.png</file>
+        <file>pic/024-italic.png</file>
+        <file>pic/048-strikethrough.png</file>
+        <file>pic/059-underline.png</file>
+        <file>pic/013-fill.png</file>
+    </qresource>
+</RCC>

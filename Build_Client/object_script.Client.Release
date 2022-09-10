@@ -1,0 +1,11 @@
+release/client.o
+release/loadingwindow.o
+release/loginwindow.o
+release/main.o
+release/mainwindow.o
+release/qrc_profile_pic.o
+release/qrc_resource.o
+release/moc_client.o
+release/moc_loadingwindow.o
+release/moc_loginwindow.o
+release/moc_mainwindow.o

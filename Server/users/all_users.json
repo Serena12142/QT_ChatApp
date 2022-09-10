@@ -1,0 +1,46 @@
+{
+    "HhRaPnbuh17gzXGc5LgAOrbrEJIumQIu": {
+        "email": "robert@gmail.com",
+        "intro": "I am not 萝卜!",
+        "language1": "English (Canada)",
+        "language2": "",
+        "language3": "",
+        "password": "Aa123456",
+        "profile_pic_path": ":/images/pic/profile.png",
+        "pronoun": "He/ Him/ His ",
+        "username": "robert"
+    },
+    "nthJXkiQeig5puaAMVTMf2lzA1kmfZqa": {
+        "email": "cathy@gmail.com",
+        "intro": "This is your intro.",
+        "language1": "",
+        "language2": "",
+        "language3": "",
+        "password": "Aa123456",
+        "profile_pic_path": ":/images/pic/profile.png",
+        "pronoun": "",
+        "username": "cathy"
+    },
+    "pnmXDn5qnrYxgAn1gxEpNV2HHefI998y": {
+        "email": "serena@gmail.com",
+        "intro": "I am cutie",
+        "language1": "English (Canada)",
+        "language2": "English (Canada)",
+        "language3": "",
+        "password": "Aa123456",
+        "profile_pic_path": ":/images/pic/profile.png",
+        "pronoun": "She/ Her/ Hers",
+        "username": "serena"
+    },
+    "ugPI3nfzmhf6MChnf9twgDFl8ELkNhrB": {
+        "email": "lindy@gmail.com",
+        "intro": "This is your intro.",
+        "language1": "Chinese (Simplified)",
+        "language2": "English (Canada)",
+        "language3": "",
+        "password": "Aa123456",
+        "profile_pic_path": ":/images/pic/profile.png",
+        "pronoun": "She/ Her/ Hers",
+        "username": "lindy"
+    }
+}

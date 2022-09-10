@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginWindow</class>
+ <widget class="QWidget" name="LoginWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>509</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">Qlabel{
+border-radius: 25px;
+}</string>
+  </property>
+  <widget class="QToolButton" name="toolButton_3">
+   <property name="geometry">
+    <rect>
+     <x>86</x>
+     <y>183</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton{
+background-color: None;
+border: None;
+}</string>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/pic/profile.png</normaloff>:/images/pic/profile.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>35</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="WELCOME">
+   <property name="geometry">
+    <rect>
+     <x>102</x>
+     <y>91</y>
+     <width>241</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <pointsize>36</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+color: #F5F5F5;
+}</string>
+   </property>
+   <property name="text">
+    <string>WELCOME</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="minimize_butt">
+   <property name="geometry">
+    <rect>
+     <x>352</x>
+     <y>40</y>
+     <width>24</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border: 1px solid #707070;
+border-radius: 10px;
+background:#FFFBDB;
+color: #707070;
+}
+QPushButton:hover{
+border: 1px solid #535249;
+border-radius: 10px;
+background:#535249;
+color: #FFFBDB;
+}</string>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="username">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>172</y>
+     <width>287</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+border-radius:20px;
+background-color:#DEE6FF;
+border: 1px solid #707070;
+padding-left:40px;
+}
+QLineEdit:focus{
+color: #000000;
+background-color:#FDFBFB;
+padding-left:40px;
+}
+
+
+</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="frame">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Username/ Email</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="error">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>400</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+border: None;
+color: #CD4F8A;
+alignment: center;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="signup">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>460</y>
+     <width>88</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius: 15px;
+background-color: #7DA3FD;
+border:2px solid #DBD9D9;
+color: #DBD9D9
+}
+QPushButton:hover{
+background-color: #566FA7;
+border:2px solid #DBD9D9;
+color: #FFFFFF
+}</string>
+   </property>
+   <property name="text">
+    <string>SIGN UP</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close_butt">
+   <property name="geometry">
+    <rect>
+     <x>383</x>
+     <y>40</y>
+     <width>24</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border: 1px solid #707070;
+border-radius: 10px;
+background:#DD6243;
+color: #707070;
+}
+QPushButton:hover{
+border: 1px solid #E8907A;
+border-radius: 10px;
+background:#E8907A;
+color: #FFFBDB;
+}</string>
+   </property>
+   <property name="text">
+    <string>x</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="Keep_me">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>330</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton{
+color: #F5F5F5;
+}
+
+QRadioButton::indicator::unchecked{
+border: 1px solid #F5F5F5;
+border-radius: 5px;
+}
+QRadioButton::indicator::checked{
+background-color:#7DA3FD;
+border: 4px solid #F5F5F5;
+border-radius: 5px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Keep me signed in.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="login">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>440</y>
+     <width>88</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#login{
+border-radius: 15px;
+background-color: #7DA3FD;
+border:2px solid #DBD9D9;
+color: #DBD9D9
+}
+QPushButton#login:hover{
+background-color: #566FA7;
+border:2px solid #DBD9D9;
+color: #FFFFFF
+}</string>
+   </property>
+   <property name="text">
+    <string>LOG IN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>460</y>
+     <width>31</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background: none;
+border:none;
+icon: url(:/images/pic/left-arrow1.png);
+}
+QPushButton:hover{
+background: none;
+border:none;
+icon: url(:/images/pic/left-arrow.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="forgot_password">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>327</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: #C7D2EE;
+border: None;
+background-color: None;
+}
+QPushButton:hover{
+color: #F5F5F5;
+border: None;
+background-color: None;
+}</string>
+   </property>
+   <property name="text">
+    <string>Forgot password?</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="password">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>248</y>
+     <width>287</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+border-radius:20px;
+background-color:#DEE6FF;
+border: 1px solid #707070;
+padding-left:40px;
+}
+QLineEdit:focus{
+color: #000000;
+background-color:#FDFBFB;
+padding-left:40px;
+}
+
+
+</string>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::PasswordEchoOnEdit</enum>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Password</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="goto_signup">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>500</y>
+     <width>208</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color: #C7D2EE;
+border: None;
+background-color: None;
+}
+QPushButton:hover{
+color: #F5F5F5;
+border: None;
+background-color: None;
+}</string>
+   </property>
+   <property name="text">
+    <string>New user? Click here to sign up. </string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_4">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>257</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton{
+background-color: None;
+border: None;
+}</string>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/pic/padlock.png</normaloff>:/images/pic/padlock.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>22</y>
+     <width>408</width>
+     <height>527</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#background{
+border-radius: 10px;
+background: #7DA3FD;
+border: 3px solid;
+border-color: #DBD9D9;
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="email_logo">
+   <property name="geometry">
+    <rect>
+     <x>86</x>
+     <y>106</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton{
+background-color: None;
+border: None;
+}</string>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/pic/fingerprint.png</normaloff>:/images/pic/fingerprint.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>35</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="email">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>96</y>
+     <width>287</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+border-radius:20px;
+background-color:#DEE6FF;
+border: 1px solid #707070;
+padding-left:40px;
+}
+QLineEdit:focus{
+color: #000000;
+background-color:#FDFBFB;
+padding-left:40px;
+}
+
+
+</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="frame">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Email</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pwd_confirmation">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>321</y>
+     <width>287</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+border-radius:20px;
+background-color:#DEE6FF;
+border: 1px solid #707070;
+padding-left:40px;
+}
+QLineEdit:focus{
+color: #000000;
+background-color:#FDFBFB;
+padding-left:40px;
+}
+
+
+</string>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::PasswordEchoOnEdit</enum>
+   </property>
+   <property name="placeholderText">
+    <string>Confirm Password</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="reconfirm_logo">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>330</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton{
+background-color: None;
+border: None;
+}</string>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/pic/thumb-up.png</normaloff>:/images/pic/thumb-up.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>WELCOME</zorder>
+  <zorder>minimize_butt</zorder>
+  <zorder>username</zorder>
+  <zorder>error</zorder>
+  <zorder>signup</zorder>
+  <zorder>close_butt</zorder>
+  <zorder>Keep_me</zorder>
+  <zorder>login</zorder>
+  <zorder>back</zorder>
+  <zorder>forgot_password</zorder>
+  <zorder>password</zorder>
+  <zorder>goto_signup</zorder>
+  <zorder>toolButton_4</zorder>
+  <zorder>toolButton_3</zorder>
+  <zorder>email</zorder>
+  <zorder>email_logo</zorder>
+  <zorder>pwd_confirmation</zorder>
+  <zorder>reconfirm_logo</zorder>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
